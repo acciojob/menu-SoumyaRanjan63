@@ -31,8 +31,8 @@ const MainContainer = () => {
             <h1>Our Menu</h1>
                 <button id='main' onClick={()=>handleButtonClick('All')}>All</button>           
                 <button id='filter-btn-1' onClick={()=>handleButtonClick('breakfast')} data-test-id="menu-item-breakfast">Breakfast</button>
-                <button id='filter-btn-2' onClick={()=>handleButtonClick('lunch')} data-test-id="menu-item-lunch">Lunch</button>
-                <button id='filter-btn-3' onClick={()=>handleButtonClick('shakes')} data-test-id="menu-item-shakes">Shakes</button>
+                <button id='filter-btn-3' onClick={()=>handleButtonClick('lunch')} data-test-id="menu-item-lunch">Lunch</button>
+                <button id='filter-btn-2' onClick={()=>handleButtonClick('shakes')} data-test-id="menu-item-shakes">Shakes</button>
             </div>
 
             <div className='dishes'>
