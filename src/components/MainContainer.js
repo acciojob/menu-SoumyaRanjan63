@@ -18,7 +18,7 @@ const MainContainer = () => {
             <div key={dish.id}>
                 <img src={dish.img} alt={dish.title}/>
                 <h1>{dish.title}</h1>
-                <p>{dish.price}</p>
+                <p>${dish.price}</p>
                 <p>{dish.desc}</p>
             </div>
         ));
@@ -28,6 +28,7 @@ const MainContainer = () => {
     return (
         <div>
             <div className='navbar'>
+            <h1>Our Menu</h1>
                 <button onClick={()=>handleButtonClick('All')}>All</button>           
                 <button onClick={()=>handleButtonClick('breakfast')}>Breakfast</button>
                 <button onClick={()=>handleButtonClick('lunch')}>Lunch</button>
